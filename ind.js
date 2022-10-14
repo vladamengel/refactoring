@@ -1,8 +1,4 @@
 function repeatString(str, count) {
-    let repeatedString = '';
-    for (i = 0; i < count; i++) {
-        repeatedString += str;
-    }
-     return repeatedString;
+    return count > 0 ? str.repeat(count) : '';
 }
 console.log(repeatString('Строка', 3));
